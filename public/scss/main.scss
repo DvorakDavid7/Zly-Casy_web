@@ -1,0 +1,10 @@
+
+// Here we can define our custom theme or override bootstrap's defaults
+
+$theme-colors: (
+    "black": black,
+    "custome": pink,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+

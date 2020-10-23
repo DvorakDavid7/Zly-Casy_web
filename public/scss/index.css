@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap");
+.nav-item {
+  font-family: "Ruslan Display";
+  font-size: 1.3rem;
+}
+
+.logo {
+  font-family: "Ruslan Display";
+  font-size: 2.5rem;
+}
+
+.btn-reservation {
+  font-family: "Ruslan Display";
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  padding: 0;
+  border: 2px solid white;
+  position: absolute;
+  right: 30px;
+  top: 110px;
+}
+
+@media (max-width: 768px) {
+  .btn-reservation {
+    top: 120px;
+  }
+}
+
+.thumbnail-content {
+  position: absolute;
+  font-family: "Ruslan Display";
+  color: white;
+  bottom: 200px;
+}
+
+.thumbnail-content h1 {
+  font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .thumbnail-content h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .thumbnail-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .thumbnail-content h1 {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
