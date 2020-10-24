@@ -15,7 +15,7 @@
 <style>
 
 </style>
-    <div class="">
+    <section class="thumbnail">
         <!-- Navbar flexbox (align-items-end) -->
         <nav class="navbar navbar-expand-md navbar-dark bg-black d-flex align-items-end">
             <!-- clickable brend -->
@@ -39,29 +39,20 @@
             </div>
             <button type="button" class="align-self-end btn-reservation">Rezervace</button>
         </nav>
-        
         <!-- horizontal rule -->
         <div style="width: 100%; height: 3px; background-color: white;"></div>
-        
-        <!-- Content section -->
-        <section>
-            <div style="position: relative; z-index: -1;">
-                <img class="img-fluid" src="/public/assets/top_pub1.jpg" alt="">
+        <div class="thumbnail-content">
+            <h1>Největší výběr piv</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </section>
+    
+    <!-- Content section -->
+    <section>
+        <div style="height:800px;">
 
-                <div class="thumbnail-content">
-                    <h1>Největší výběr piv v Praze</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Just lorem for test -->
-        <section>
-            <div style="height: 500px;">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis a, numquam distinctio cupiditate aspernatur neque quos? Ex, deleniti vitae!</p>
-            </div>
-        </section>
-    </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

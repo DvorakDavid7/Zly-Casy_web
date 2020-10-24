@@ -28,25 +28,21 @@
 }
 
 .thumbnail-content {
-    position: absolute;  // absolute to bg img
+    position: relative;
     font-family: "Ruslan Display";
     color: white;
-    bottom: 200px;
     h1 {
-        font-size: 1rem;
-        // Small devices (landscape phones, 576px and up)
-        @media (min-width: 576px) { 
-            font-size: 1rem;
-        }
-
-        // Medium devices (tablets, 768px and up)
-        @media (min-width: 768px) { 
-            font-size: 2rem;
-        }
-
-        // Large devices (desktops, 992px and up)
-        @media (min-width: 992px) { 
-            font-size: 3rem;
-        }
+        font-size: 2rem;
     }
+    top: 30%;
+    padding-left: 30px;
+}
+
+
+.thumbnail {
+    background-image: url(/public/assets/top_pub1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -10;
 }
